@@ -12,7 +12,7 @@ g1 = 'https://globoplay.globo.com/v/'
 n = int(input("Digite o numero de paginas: "))
 for i in range(1, n+1):
 	j = 0
-	print('Pegan1do informacoes da pagina ' + str(i))
+	print('Pegando informacoes da pagina ' + str(i))
 	if (i != 1):
 		url = url + '&page=' + str(i)
 	html_page = urlopen(url)
